@@ -5,7 +5,7 @@ collection of high-resolution burned area datasets
 24-11-25 Begin data preparation
 
 
-a. 他山之石 (summary from deepseek)
+a. 他山之石 (summary from deepseek)  
 1.
 【引用格式】：Cambrin, D. R., Colomba, L., & Garza, P. (2023). CaBuAr: California burned areas dataset for delineation. IEEE Geoscience and Remote Sensing Magazine, 106-112.
 【数据获取地点】：California
