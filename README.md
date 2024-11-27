@@ -5,9 +5,10 @@
 > Method for burned area segmentation 
 
 ## Updating logs
-[24-11-25] - Version 0.0.1 Begin data preparation (paper 1-4, dataset 1-2, )  
+[24-11-25] - Version 0.0.1 Begin data preparation (paper 1-4, dataset 1-2, )
+[24-11-27] - add new data
 
-### New added papers with public datasets  (from Deepseek)  
+### Papers with public datasets  (from Deepseek)  
 - **Paper 1**: Cambrin, D. R., Colomba, L., & Garza, P. (2023). CaBuAr: California burned areas dataset for delineation. IEEE Geoscience and Remote Sensing Magazine, 106-112.
   - [数据获取地点] California  
   - [训练数据] 340 images, 340 samples  
@@ -52,8 +53,32 @@
   - [数据获取地址] https://github.com/h2oai/cvpr-multiearth-deforestation-segmentation  
   - [数据内容] burned area/active fires  
 
+- **Paper 5** Sdraka, M. et al. FLOGA: A machine learning ready dataset, a benchmark and a novel deep learning model for burnt area mapping with Sentinel-2. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (2024).  
+  - [数据获取地点] Greece  
+  - [训练数据] 326 events  
+  - [训练数据大小] 未提及具体数量  
+  - [训练数据来源] Hellenic Fire Service officials  
+  - [数据来源] Sentinel-2 and MODIS satellite imagery  
+  - [数据年份] 2017-2021  
+  - [数据时长] 5 years  
+  - [数据获取地址] https://github.com/Orion-AI-Lab/FLOGA  
+  - [数据内容] burned area
+ 
+- **Paper 6** Pinto, M.M. et al. A deep learning approach for mapping and dating burned areas using temporal sequences of satellite images. ISPRS Journal of Photogrammetry and Remote Sensing 160, 260–274 (2020).  
+  - [数据获取地点] California  
+  - [训练数据] 64 images, 2000 sequences  
+  - [训练数据大小] 未提及  
+  - [训练数据来源] VIIRS Level 1B product, VIIRS Active Fires data, MCD64A1C6  
+  - [数据来源] VIIRS  
+  - [数据年份] 2012–2018  
+  - [数据时长] 6年  
+  - [数据获取地址] https://github.com/mnpinto/banet  
+  - [数据内容] burned area/active fires
 
-### New added public datasets (from Kimi)
+
+
+
+### Public datasets (from Kimi)
 - **Dataset 1**: Prabowo, Y. et al. Dataset of Deep Learning from Landsat-8 Satellite Images for Estimating Burned Areas in Indonesia. Mendeley Data, 6 June 2022. DOI: 10.17632/fs7mtkg2wk.5.  
   - [数据获取地点] Indonesia  
   - [训练数据] 227 images  
@@ -67,13 +92,24 @@
 
 
 - **Dataset 2**: Al-Dabbagh, A. & Ilyas, M. Deep Learning and Remote Sensing Dataset For Turkey's Wildfire 2021 Multispectral Sentinel-2 Satellite Imagery. Mendeley Data, 12 August 2022. DOI: 10.17632/hgctmx9y6c.1.
-  - [数据获取地点]：Turkey
-  - [训练数据]：25,563 images
-  - [训练数据大小]：128x128 pixels
-  - [数据来源]：Sentinel-2
-  - [数据年份]：2021
-  - [数据时长]：未提及
-  - [数据获取地址]：https://data.mendeley.com/datasets/hgctmx9y6c/1
-  - [数据内容]：burned area
+  - [数据获取地点] Turkey
+  - [训练数据] 25,563 images
+  - [训练数据大小] 128x128 pixels
+  - [数据来源] Sentinel-2
+  - [数据年份] 2021
+  - [数据时长] 未提及
+  - [数据获取地址] https://data.mendeley.com/datasets/hgctmx9y6c/1
+  - [数据内容] burned area
 
+
+- **Dataset 3** Zhang, Z., He, G., Long, T., & Wei, M. Global 30-m burned area distribution in 2020 (GBA30_2020), Beijing: International Research Center of Big Data for Sustainable Development Goals (CBAS), 2022. doi: 10.12237/casearth.62ff4d13819aec75a535cbea.  
+  - [数据获取地点] Global  
+  - [训练数据] 504 tiles, each with approximately 40,000 × 40,000 pixels  
+  - [训练数据大小] 30m resolution  
+  - [训练数据来源] Time series satellite data, machine learning algorithm, and cloud computing platform  
+  - [数据来源] Not specified, but generated using time series satellite data  
+  - [数据年份] 2020  
+  - [数据时长] Single year  
+  - [数据获取地址] https://data.casearth.cn/thematic/cbas_2022/162  
+  - [数据内容] burned area  
 --- 
