@@ -5,7 +5,7 @@
 > Method for burned area segmentation 
 
 ## Updating logs
-[24-11-25] - Version 0.0.1 Begin data preparation (paper 1-4, dataset 1-2, )
+[24-11-25] - Version 0.0.1 Begin data preparation (paper 1-4, dataset 1-2, )  
 [24-11-27] - add new data
 
 ### Papers with public datasets  (from Deepseek)  
